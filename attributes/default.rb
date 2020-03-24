@@ -5,6 +5,7 @@
 # Copyright 2015, Mindera
 #
 
-default_unless['pm2']['pm2_version'] = 'latest'
-default_unless['pm2']['npm_version'] = 'latest'
+default_unless['pm2']['manage_binaries'] = true
 default_unless['pm2']['node_version'] = '4.5.0'
+default_unless['pm2']['npm_version'] = 'latest'
+default_unless['pm2']['pm2_version'] = 'latest'

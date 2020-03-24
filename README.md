@@ -30,6 +30,12 @@ Depends on the cookbooks:
         <th>Default</th>
     </tr>
     <tr>
+        <td><tt>['pm2']['manage_binaries']</tt></td>
+        <td>String</td>
+        <td>Installs node.js and modules (npm, pm2)</td>
+        <td><tt>false</tt></td>
+    </tr>
+    <tr>
         <td><tt>['pm2']['node_version']</tt></td>
         <td>String</td>
         <td>Node version to install</td>
